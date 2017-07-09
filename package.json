@@ -1,0 +1,20 @@
+{
+  "name": "name-of",
+  "version": "1.0.0",
+  "description": "A small function to get a friendly name for the contructor of `target`.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha -u tdd --timeout 999999 --colors test "
+  },
+  "keywords": [
+    "typeof",
+    "object",
+    "name"
+  ],
+  "author": "Mikal Stordal",
+  "license": "MIT"
+}

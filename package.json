@@ -1,6 +1,6 @@
 {
   "name": "name-of",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small function to get a friendly name for the contructor of `target`.",
   "main": "index.js",
   "dependencies": {},

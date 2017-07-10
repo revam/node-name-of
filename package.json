@@ -16,5 +16,13 @@
     "name"
   ],
   "author": "Mikal Stordal",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revam/node-name-of.git"
+  },
+  "bugs": {
+    "url": "https://github.com/revam/node-name-of/issues"
+  },
+  "homepage": "https://github.com/revam/node-name-of#readme"
 }

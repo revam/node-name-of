@@ -1,8 +1,16 @@
 # `nameOf(target)`
+- `target`
+  \<
+  [Function]()
+  |
+  [Object]()
+  \>
+  Target to identify.
 
-## Descrpition
-A small function to get a friendly name for the contructor of `target`.
-Returns `undefined` on all other types except `function` and `object`. 
+A small function to get either `Symbol.toStringTag` for or `constructor` name of `target`.
+Returns `undefined` on all other types except `function` and `object`.
+
+Based on top answer from [this question](https://stackoverflow.com/questions/332422/how-do-i-get-the-name-of-an-objects-type-in-javascript).
 
 ## Installation
 ```sh
@@ -10,6 +18,7 @@ Returns `undefined` on all other types except `function` and `object`.
 ```
 
 ## License
+
 The MIT License
 
 Copyright 2017 Mikal Stordal <mikalstordal@gmail.com>
